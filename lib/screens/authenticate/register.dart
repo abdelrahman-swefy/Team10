@@ -40,8 +40,8 @@ class _RegisterState extends State<Register> {
                           padding: EdgeInsets.fromLTRB(30, 20, 30, 0),
                           child: TextFormField(
                             decoration: InputDecoration(
-                              hintText: "username",
-                              labelText: "username",
+                              hintText: "eg: xxx@gmail.com (no space after com)",
+                              labelText: "email",
                               border: OutlineInputBorder(
                                   borderRadius: BorderRadius.circular(15)),
                             ),
